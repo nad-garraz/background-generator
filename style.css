@@ -1,0 +1,38 @@
+body {
+  font: "Times New Roman", 'sans-serif';
+  color: rgba(0,0,0,.5);
+  text-align: center;
+  letter-spacing: .5em;
+  top: 15%;
+  background: linear-gradient(to right, red, yellow);
+}
+
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: "mono";
+  font-size: 1rem;
+  letter-spacing: 0.1em
+}
+@media only screen and (max-width: 650px) {
+    h1 {
+        font-size: 1.8em;
+        padding: 0;
+    }
+    h2 {
+        font-size: 1.5em;
+        padding: 0;
+    }
+}
+
+.randomButton{
+  background: linear-gradient(to right, yellow, red);
+  border: 0.2em solid black;
+}

@@ -1,8 +1,8 @@
-var css = document.querySelector("h3");
-var color1 = document.querySelector(".color1");
-var color2 = document.querySelector(".color2");
-var body = document.querySelector("body");
-var button = document.querySelector("button");
+const css = document.querySelector("h3");
+const color1 = document.querySelector(".color1");
+const color2 = document.querySelector(".color2");
+const body = document.querySelector("body");
+const button = document.querySelector("button");
 
 // starts the page with the css.textContent and original
 // hardcoded colors.
@@ -23,7 +23,7 @@ function backgroundGenerator() {
 
 // Generates a random string in the form #rrggbb with hex values.
 function randomColorGenerator() {
-  var hexRandom = Math.floor(Math.random() * 16777215).toString(16);
+  let hexRandom = Math.floor(Math.random() * 16777215).toString(16);
   while (hexRandom.length < 6) hexRandom = "0" + hexRandom;
   return "#" + hexRandom;
 }

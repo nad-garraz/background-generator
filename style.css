@@ -1,10 +1,13 @@
 body {
   font: "Times New Roman", 'sans-serif';
+  height: 100%;
   color: rgba(0,0,0,.5);
   text-align: center;
   letter-spacing: .5em;
   top: 15%;
   background: linear-gradient(to right, red, yellow);
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -21,6 +24,27 @@ h3 {
   font-size: 1rem;
   letter-spacing: 0.1em
 }
+
+div{
+  display: flex;
+  justify-content: center;
+  align-content: space-center;
+  margin: 20px;
+}
+
+.randomButton{
+  background: linear-gradient(to right, yellow, red);
+  border: 0.2em solid black;
+  width: 40%;
+}
+
+input {
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  margin: 20px;
+}
+
 @media only screen and (max-width: 650px) {
     h1 {
         font-size: 1.8em;
@@ -30,9 +54,4 @@ h3 {
         font-size: 1.5em;
         padding: 0;
     }
-}
-
-.randomButton{
-  background: linear-gradient(to right, yellow, red);
-  border: 0.2em solid black;
 }

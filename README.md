@@ -18,6 +18,7 @@ To use the background color gradient generator, follow these steps:
 
 1. Clone the repository:
 
+   ```
    bash
    git clone https://github.com/nad-garraz/background-gradient-generator.git
    ```
